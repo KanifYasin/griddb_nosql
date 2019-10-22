@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Positions</title>
+	<meta charset="utf-8">
+	<style>
+		.image{
+			position: relative;
+		}
+		.lefttop{
+			position: absolute;
+			top: 4px;
+			left: 18px;
+			color: aqua;
+			font-size: 30px;
+		}
+		.righttop{
+			position: absolute;
+			top: 4px;
+			right: 18px;
+			color: aqua;
+			font-size: 30px;
+		}
+		.center{
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			text-align: center;
+			color: aqua;
+			font-size: 30px;
+		}
+		.bottomleft{
+			position: absolute;
+			bottom: 4px;
+			left: 18px;
+			color: aqua;
+			font-size: 30px;
+		}
+		.bottomright{
+			position: absolute;
+			bottom: 4px;
+			right: 18px;
+			color: aqua;
+			font-size: 30px;
+		}
+		img{
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<h1>Image Positions</h1>
+    <div class="image">
+    	<img src="images.jpg">
+    	<div class="lefttop">Top Left</div>
+    	<div class="righttop">Top Right</div>
+    	<div class="center">Centered</div>
+    	<div class="bottomleft">Bottom Left</div>
+    	<div class="bottomright">Bottom Right</div>
+    </div>
+</body>
+</html>

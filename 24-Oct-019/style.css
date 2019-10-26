@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	background-color: pink;
+	margin:20px 0px 50px;
+}
+main{
+	margin-left: 120px;
+}
+.box{
+	display: block;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	padding-left: 12px;
+	border-radius: 10%;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+	border-radius: 10%;
+}
+img:hover{
+	transform: scale(2,2);
+	transition: 2s transform;
+	border-radius: 10%;
+}

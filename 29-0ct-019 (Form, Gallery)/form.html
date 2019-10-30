@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Form</title>
+  <meta charset="utf-8">
+  <style>
+    h1{
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    body{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    input[type=text],select{
+      width: 100%;
+      padding: 12px 20px;
+      margin:8px 0;
+      border-radius: 5px;
+      border:1px solid black;
+      box-sizing: border-box;
+    }
+    input[type=email]{
+      width: 100%;
+      padding: 12px 20px;
+      margin:8px 0;
+      border-radius: 5px;
+      border:1px solid black;
+      box-sizing: border-box;
+    }
+    input[type=submit]{
+      width: 100%;
+      background-color: lightgreen;
+      padding: 16px 20px;
+      margin:8px 0;
+      border-radius: 5px;
+    }
+    input[type=submit]:hover{
+      background-color: lightblue;
+      color: white;
+    }
+    div{
+       border-radius: 5px;
+       background-color: lightgrey;
+       padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form</h1>
+  <h3>Using CSS Styling For HTML Form</h3>
+  <div>
+  <form action="">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="first name" placeholder="Your Name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="last name" placeholder="Your Last Name...">
+
+    <label for="email">Email</label>
+    <input type="Email" id="email" name="email" placeholder="Your Email...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Pakistan">Pakistan</option>
+      <option value="Canada">Canada</option>
+      <option value="USA">USA</option>
+      <option value="Japan">Japan</option>
+      <option value="Australia">Australia</option>
+      <option value="England">England</option>
+    </select>
+
+    <label for="course">Course</label>
+    <select id="course" name="course">
+      <option value="Networking">Networking</option>
+      <option value="Web Desgin And Development">Web Desgin And Development</option>
+      <option value="Mobile Development">Mobile Development</option>
+      <option value="Data Visualization">Data Visualization</option>
+      <option value="UI/UX Design">UI/UX Design</option>
+
+      <input type="submit" name="Submit">
+    </select>
+  </form>
+</div>
+</body>
+</html>
